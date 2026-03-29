@@ -1,21 +1,53 @@
 # CableFYI Embed Widget
 
-> Embeddable CableFYI widgets for any website. Zero dependencies, Shadow DOM isolation, 4 themes (light/dark/sepia/auto).
+> 151 cables, connectors, standards. Embeddable widgets for any website. Zero dependencies, Shadow DOM isolation.
 
 ## Quick Start
 
-Add to any HTML page:
-- Script: <script src="https://cdn.jsdelivr.net/npm/cablefyi-embed@1/dist/embed.min.js"></script>
+```html
+<script src="https://cdn.jsdelivr.net/npm/cablefyi-embed@1/dist/embed.min.js"></script>
+<div data-cablefyi="connector" data-slug="example"></div>
+```
+
+## Available Widget Types (9)
+
+- entity: `data-cablefyi="entity"`
+- glossary: `data-cablefyi="glossary"`
+- guide: `data-cablefyi="guide"`
+- compare: `data-cablefyi="compare"`
+- search: `data-cablefyi="search"`
+- faq: `data-cablefyi="faq"`
+- connector (interactive): `data-cablefyi="connector"`
+- standard (interactive): `data-cablefyi="standard"`
+- compatibility (interactive): `data-cablefyi="compatibility"`
+
+## Customization
+
+- **Themes**: light, dark, sepia, auto (follows system preference)
+- **Sizes**: compact (280px), default (420px), large (720px)
+- **Styles**: modern, classic
+
+```html
+<div data-cablefyi="connector" data-slug="example"
+     data-theme="auto" data-size="compact" data-style-variant="modern"></div>
+```
+
+## Integration Methods
+
+1. **Script tag** (recommended): `<script src="https://cdn.jsdelivr.net/npm/cablefyi-embed@1/dist/embed.min.js"></script>`
+2. **iframe**: `https://cablefyi.com/iframe/entity/{slug}/`
+3. **oEmbed**: `https://cablefyi.com/oembed?url={page_url}&format=json`
+4. **Badge**: `https://cablefyi.com/badge/site.svg`
 
 ## Links
 
 - Main site: https://cablefyi.com
 - Widget docs: https://widget.cablefyi.com
-- npm: https://www.npmjs.com/package/cablefyi-embed
+- API documentation: https://cablefyi.com/developers/
+- npm package: https://www.npmjs.com/package/cablefyi-embed
 - GitHub: https://github.com/fyipedia/cablefyi-embed
-- API: https://cablefyi.com/developers/
 
-## Network FYI Widget Family
+## Network FYI Widget Network
 
 - [TLDFYI Widget](https://widget.tldfyi.com)
 - [IPFYI Widget](https://widget.ipfyi.com)
