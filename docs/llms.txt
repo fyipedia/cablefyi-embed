@@ -1,0 +1,26 @@
+# CableFYI Embed Widget
+
+> Embeddable CableFYI widgets for any website. Zero dependencies, Shadow DOM isolation, 4 themes (light/dark/sepia/auto).
+
+## Quick Start
+
+Add to any HTML page:
+- Script: <script src="https://cdn.jsdelivr.net/npm/cablefyi-embed@1/dist/embed.min.js"></script>
+
+## Links
+
+- Main site: https://cablefyi.com
+- Widget docs: https://widget.cablefyi.com
+- npm: https://www.npmjs.com/package/cablefyi-embed
+- GitHub: https://github.com/fyipedia/cablefyi-embed
+- API: https://cablefyi.com/developers/
+
+## Network FYI Widget Family
+
+- [TLDFYI Widget](https://widget.tldfyi.com)
+- [IPFYI Widget](https://widget.ipfyi.com)
+- [StatusCodeFYI Widget](https://widget.statuscodefyi.com)
+
+## Part of FYIPedia
+
+Open-source developer tools ecosystem — https://fyipedia.com
