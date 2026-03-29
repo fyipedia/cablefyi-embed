@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# CableFYI Embed Widget
+# Main site: https://cablefyi.com
+# Widget docs: https://widget.cablefyi.com
+# npm: https://www.npmjs.com/package/cablefyi-embed
